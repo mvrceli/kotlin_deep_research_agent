@@ -1,0 +1,60 @@
+# Gradle
+.gradle/
+/build/
+/out/
+
+# Gradle Wrapper - keep wrapper scripts and properties but ignore wrapper caches
+# (do not ignore gradle/wrapper/gradle-wrapper.jar if you commit the wrapper)
+/.gradle/
+
+# Kotlin / Java
+*.class
+*.jar
+*.war
+*.ear
+*.class
+*.kotlin_module
+
+# Kotlin/IntelliJ
+.idea/
+*.iml
+*.iws
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+
+# VS Code
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+.env.*
+.envrc
+local.properties
+secrets.properties
+*.jks
+*.keystore
+
+# Runtime data
+research_memory.db
+*.log
+logs/
+tmp/
+
+# Temporary files
+*.tmp
+*~
+*.swp
+
+# Build artifacts / distributions
+/build/
+/buildSrc/build/
+/build/libs/
+/build/distributions/
+
+# Misc
+coverage/
+test-results/
